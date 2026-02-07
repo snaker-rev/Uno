@@ -2,9 +2,9 @@
 //use rand:Rng
 
 #[derive(Debug)]
-enum Color {Red,Blue,Green,Blue,Yellow}
+pub enum Color {Red,Blue,Green,Blue,Yellow} //im making these a public whore 
 #[derive(Debug)]
-enum Num {1,2,3,4,5,6,7,8,9}
+pub enum Num {1,2,3,4,5,6,7,8,9}
 #[derive(Debug)]
 struct Card {color:Color,value:i32}
 fn main() {
